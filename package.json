@@ -3,7 +3,9 @@
   "version": "0.8.0",
   "description": "Locomote.sh: Development server for PWA testing.",
   "main": "lib/index.js",
-  "bin": "locomote-ds",
+  "bin": {
+     "loco-ds": "./bin/loco-ds"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "express-http-proxy": "^1.4.0",
