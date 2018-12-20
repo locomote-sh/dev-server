@@ -1,8 +1,9 @@
 {
-  "name": "dev-server",
+  "name": "@locomote.sh/dev-server",
   "version": "0.8.0",
   "description": "Locomote.sh: Development server for PWA testing.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "bin": "locomote-ds",
   "dependencies": {
     "express": "^4.16.4",
     "express-http-proxy": "^1.4.0",
@@ -17,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/locomote-sh/dev-server.git"
   },
-  "author": "Julian Goacher",
+  "author": "Julian Goacher, Locomote Ltd.",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/locomote-sh/dev-server/issues"

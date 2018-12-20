@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+// Process the command line, read the config.
+const config = require('../lib/process-argv');
+
+// Run the server.
+require('../lib/index').run( config );
+
