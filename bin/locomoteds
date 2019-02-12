@@ -4,5 +4,10 @@
 const config = require('../lib/process-argv');
 
 // Run the server.
-require('../lib/index').run( config );
+require('../lib/index')
+    .run( config )
+    .catch( e => {
+        console.error( e );
+        process.exit( 1 );
+    });
 
