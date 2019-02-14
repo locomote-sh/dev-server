@@ -4,20 +4,19 @@
   "description": "Locomote.sh: Development server for PWA testing.",
   "main": "lib/index.js",
   "bin": {
-     "locomoteds": "./bin/locomoteds"
+    "locomote": "./bin/locomote"
   },
   "dependencies": {
-    "@locomote.sh/file.api": "git+https://github.com/locomote-sh/file.api.git",
-    "@locomote.sh/filesets": "git+https://github.com/locomote-sh/filesets.git",
-    "indexeddbshim": "^3.10.0",
+    "@locomote.sh/file.api": "file:../file.api",
+    "@locomote.sh/filesets": "file:../filesets",
+    "@locomote.sh/heckle": "file:../heckle",
     "express": "^4.16.4",
     "express-http-proxy": "^1.4.0",
+    "indexeddbshim": "^3.10.0",
     "webpack": "^4.19.1",
     "webpack-dev-middleware": "^3.3.0"
   },
-  "devDependencies": {
-    "@locomote.sh/heckle": "git+https://github.com/locomote-sh/heckle.git"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
