@@ -7,7 +7,7 @@
     "locomoteds": "./bin/locomoteds"
   },
   "dependencies": {
-    "@locomote.sh/file.api": "git+https://github.com/locomote-sh/file.api.git",
+    "@locomote.sh/query-api": "git+https://github.com/locomote-sh/query-api.git",
     "@locomote.sh/filesets": "git+https://github.com/locomote-sh/filesets.git",
     "express": "^4.16.4",
     "express-http-proxy": "^1.4.0",
