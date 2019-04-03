@@ -1,6 +1,6 @@
 {
   "name": "@locomote.sh/dev-server",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Locomote.sh: Development server for PWA testing.",
   "main": "lib/index.js",
   "bin": {
@@ -11,7 +11,6 @@
     "@locomote.sh/filesets": "git+https://github.com/locomote-sh/filesets.git",
     "express": "^4.16.4",
     "express-http-proxy": "^1.4.0",
-    "indexeddbshim": "^3.10.0",
     "webpack": "^4.19.1",
     "webpack-dev-middleware": "^3.3.0"
   },
